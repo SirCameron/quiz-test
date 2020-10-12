@@ -1,0 +1,81 @@
+.game-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.game-console-container {
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgb(0,0,0,0.1);
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  background-color: rgba(200,200,200,1);
+}
+
+.timer {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.question {
+  font-size: 18px;
+}
+
+.category {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.loading-container {
+  text-align: center;
+}
+
+.you-won-container, .error-container, .game-over-container {
+  font-size: 30px;
+  text-align: center;
+}
+
+.buttom-container {
+  margin-top: 20px;
+}
+
+button.reset {
+  background-color: rgb(200,0,0);
+  border: 0;
+  border-radius: 3px;
+  padding: 10px 20px;
+  color: white;
+}
+
+button[type="submit"] {
+  background-color: rgb(0,200,0);
+  border: 0;
+  border-radius: 3px;
+  padding: 10px 20px;
+  color: white;
+}
